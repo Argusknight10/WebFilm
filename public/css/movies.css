@@ -1,0 +1,134 @@
+.col-kategori {
+    border: 1px solid black;
+}
+.col-kategori{
+    border: 1px solid black;
+}
+.col-kategori .kategori{
+    border: 1px solid black;
+    background: none;
+    /* border: none; */
+    padding: 10px 0;
+    width: 200px;
+    font-weight: bold;
+}
+.col-kategori .kategori:hover{
+    transition: 0.5 ease-in-out;
+}
+.col-kategori .kategori.active{
+    background-color: black;
+    color:white;
+}
+
+.col-movie {
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+.nav-movie{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    /* border-radius: 8px; */
+    background:black;
+}
+.nav-movie li {
+    border-right:1px solid white;
+    transition:0.5s ;
+}
+.nav-movie li:hover{
+    background: rgb(175, 175, 175);
+    box-shadow: 0 5px 10px 0;
+}
+.nav-movie li a{  
+    color:white;
+}
+.nav-movie li a:hover{
+    color:black;
+}
+.posterMovie{
+    width: 100%;
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+.card-movie{
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: whitesmoke;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.card-movie:hover{
+    box-shadow: 0 7px 15px 0px rgb(33, 32, 32);
+}
+.row-movie{
+    padding: 0;
+}
+
+
+
+/* RESPONSIVE BREAKPOINTS */
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    .row-movie {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 120px);
+        justify-content:space-between ;
+        gap: 1px;
+    }  
+    .posterMovie{
+        height:170px;
+    }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+    .row-movie {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 140px);
+        justify-content:space-between;
+        gap: 1px;
+    }    
+    .posterMovie{
+        height:200px;
+    }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    .row-movie {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 140px);
+        justify-content:space-between ;
+        gap: 1px;
+    }    
+    .posterMovie{
+        height:220px;
+    }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    .row-movie {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 150px);
+        justify-content:space-between;
+        gap: 1px;
+    }    
+    .posterMovie{
+        height:240px;
+    }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    .row-movie {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 180px);
+        justify-content:space-between ;
+        gap: 10px;
+    }     
+    .posterMovie{
+        height:250px;
+    }
+}
+

@@ -1,0 +1,23 @@
+.carousel-item img {
+    /* background-color: none; */
+    height: 100%;
+    /* border: 1px solid white; */
+    width: 100%;
+    /* border-radius: 15px; */
+}
+.slide button {
+    /* background:rgba(173, 173, 173, 0.169); */
+    overflow: hidden;
+    /* width: 50px; */
+}
+.slide span {
+    font-size: 30px;
+    color:white;
+    transition: 0.7s;
+}
+.slide span:hover {
+    font-size: 30px;
+    color:white;
+    transform: scale(1.3);
+}
+

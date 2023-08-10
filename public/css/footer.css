@@ -1,0 +1,9 @@
+/* FOOTER START */
+footer {
+    background: rgba(239, 238, 238, 0.733);
+    box-shadow:0 -2px 10px 0 rgb(145, 145, 145);
+}
+.content-footer {
+	border-top: 2px solid black;
+}
+/* FOOTER END */
